@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Fun:
-  - '&studio_unlock'
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
