@@ -93,10 +93,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Fun, h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: LGUI}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: QWERTY, h: toggle}
   NUMBER:
   - {t: '$$mdi:keyboard-esc$$', h: '`', type: held}
