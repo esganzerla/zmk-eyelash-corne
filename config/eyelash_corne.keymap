@@ -80,21 +80,19 @@
         QWERTY {
             display-name = "QWERTY";
             bindings = <
-&lt 2 TAB         &kp Q  &kp W  &kp E  &kp R                   &kp T                               &kp UP               &kp Y        &kp U          &kp I      &kp O    &kp P     &lt 2 MINUS
-&mt GRAVE ESCAPE  &kp A  &kp S  &kp D  &kp F                   &kp G                     &kp LEFT  &tog 4    &kp RIGHT  &kp H        &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C  &kp V                   &kp B        &kp SPACE              &kp DOWN             &kp N        &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ESCAPE
-                                &mo 2  &mt LEFT_COMMAND SPACE  &lt 3 SPACE                                              &lt 2 ENTER  &kp BACKSPACE  &mo 3
+&lt 2 TAB         &kp Q           &kp W               &kp E               &kp R                   &kp T                            &kp UP               &kp Y        &kp U              &kp I                &kp O                &kp P                    &lt 2 MINUS
+&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL S  &ht LEFT_COMMAND D  &ht LEFT_SHIFT F        &kp G                  &kp LEFT  &tog 4    &kp RIGHT  &kp H        &ht RIGHT_SHIFT J  &ht RIGHT_COMMAND K  &ht RIGHT_CONTROL K  &ht RIGHT_ALT SEMICOLON  &kp SQT
+&kp LEFT_SHIFT    &kp Z           &kp X               &kp C               &kp V                   &kp B        &trans              &kp DOWN             &kp N        &kp M              &kp COMMA            &kp DOT              &kp FSLH                 &mt RIGHT_SHIFT ESCAPE
+                                                      &mo 2               &mt LEFT_COMMAND SPACE  &lt 3 SPACE                                           &lt 2 ENTER  &kp BACKSPACE      &mo 3
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         COLMAK-DH {
             bindings = <
-&lt 2 TAB         &kp Q  &kp W  &kp F      &kp P     &kp B                           &kp UP                         &kp J        &kp L     &kp U      &kp Y    &kp SEMI  &lt 2 MINUS
-&mt GRAVE ESCAPE  &kp A  &kp R  &kp S      &kp T     &kp G                 &kp LEFT  &lt 0 C_PLAY_PAUSE  &kp RIGHT  &kp M        &kp N     &kp E      &kp I    &kp O     &kp SQT
-&kp LSHFT         &kp X  &kp C  &kp D      &kp V     &kp Z        &kp Z              &kp DOWN                       &kp K        &kp H     &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT ESCAPE
-                                &kp LCTRL  &kp LGUI  &lt 3 SPACE                                                    &lt 2 ENTER  &kp BSPC  &kp LALT
+&lt 2 TAB         &kp Q  &kp W  &kp F  &kp P           &kp B                            &kp UP                         &kp J        &kp L     &kp U      &kp Y    &kp SEMI  &lt 2 MINUS
+&mt GRAVE ESCAPE  &kp A  &kp R  &kp S  &kp T           &kp G                  &kp LEFT  &lt 0 C_PLAY_PAUSE  &kp RIGHT  &kp M        &kp N     &kp E      &kp I    &kp O     &kp SQT
+&kp LSHFT         &kp X  &kp C  &kp D  &kp V           &kp Z        &trans              &kp DOWN                       &kp K        &kp H     &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT ESCAPE
+                                &mo 2  &mt LGUI SPACE  &lt 3 SPACE                                                     &lt 2 ENTER  &kp BSPC  &mo 3
             >;
 
             label = "COLMAK-DH";
