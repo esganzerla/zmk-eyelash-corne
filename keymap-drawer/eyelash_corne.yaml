@@ -138,7 +138,7 @@ layers:
   - {t: '$$mdi:volume-low$$', h: MUTE}
   - $$mdi:volume-high$$
   - {t: COLMAK-DH, h: toggle}
-  - '&console_bararamas'
+  - {t: QWERTY, h: toggle}
   - END
   - PG DN
   - $$mdi:apple-keyboard-control$$
