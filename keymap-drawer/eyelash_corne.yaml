@@ -64,19 +64,19 @@ layers:
   - {t: ;, s: ':'}
   - {t: '-', h: NUMBER, s: _}
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
-  - A
-  - R
-  - S
-  - T
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: PLAY PAUSE, h: QWERTY}
   - $$mdi:arrow-right-bold$$
   - M
-  - N
-  - E
-  - I
-  - O
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - X
