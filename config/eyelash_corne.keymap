@@ -89,10 +89,10 @@
 
         COLMAK-DH {
             bindings = <
-&lt 2 TAB         &kp Q           &kp W               &kp F               &kp P           &kp B                            &kp UP                         &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &lt 2 MINUS
-&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T    &kp G                  &kp LEFT  &lt 0 C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
-&kp LSHFT         &kp X           &kp C               &kp D               &kp V           &kp Z        &trans              &kp DOWN                       &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &mt RSHFT ESCAPE
-                                                      &to 4               &mt LGUI SPACE  &lt 3 SPACE                                                     &lt 2 ENTER  &kp BSPC           &to 0
+&lt 2 TAB         &kp Q           &kp W               &kp F               &kp P         &kp B                            &kp UP                         &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &lt 2 MINUS
+&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T  &kp G                  &kp LEFT  &lt 0 C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
+&kp LSHFT         &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                       &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &mt RSHFT ESCAPE
+                                                      &to 4               &lt 2 SPACE   &lt 3 SPACE                                                     &lt 2 ENTER  &lt 3 BACKSPACE    &to 0
             >;
 
             label = "COLMAK-DH";
