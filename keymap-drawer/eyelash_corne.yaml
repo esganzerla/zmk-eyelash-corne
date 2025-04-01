@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:keyboard-esc$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - SYMBOL
   COLMAK-DH:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - Q
   - W
   - F
@@ -62,7 +62,7 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '-', s: _}
+  - {t: '-', h: NUMBER, s: _}
   - {t: '$$mdi:keyboard-esc$$', h: '`'}
   - A
   - R
