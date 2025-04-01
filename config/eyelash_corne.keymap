@@ -80,19 +80,19 @@
         QWERTY {
             display-name = "QWERTY";
             bindings = <
-&lt 2 TAB         &kp Q           &kp W               &kp E               &kp R             &kp T                            &kp UP               &kp Y        &kp U              &kp I                &kp O                &kp P                    &lt 2 MINUS
-&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL S  &ht LEFT_COMMAND D  &ht LEFT_SHIFT F  &kp G                  &kp LEFT  &tog 4    &kp RIGHT  &kp H        &ht RIGHT_SHIFT J  &ht RIGHT_COMMAND K  &ht RIGHT_CONTROL K  &ht RIGHT_ALT SEMICOLON  &kp SQT
-&kp LEFT_SHIFT    &kp Z           &kp X               &kp C               &kp V             &kp B        &trans              &kp DOWN             &kp N        &kp M              &kp COMMA            &kp DOT              &kp FSLH                 &mt RIGHT_SHIFT ESCAPE
-                                                      &tog 4              &lt 3 SPACE       &lt 2 SPACE                                           &lt 2 ENTER  &lt 3 BACKSPACE    &to 1
+&lt 2 TAB         &kp Q           &kp W               &kp E               &kp R             &kp T                            &kp UP                       &kp Y        &kp U              &kp I                &kp O                &kp P                    &lt 2 MINUS
+&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL S  &ht LEFT_COMMAND D  &ht LEFT_SHIFT F  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp H        &ht RIGHT_SHIFT J  &ht RIGHT_COMMAND K  &ht RIGHT_CONTROL K  &ht RIGHT_ALT SEMICOLON  &kp SQT
+&kp LEFT_SHIFT    &kp Z           &kp X               &kp C               &kp V             &kp B        &trans              &kp DOWN                     &kp N        &kp M              &kp COMMA            &kp DOT              &kp FSLH                 &mt RIGHT_SHIFT ESCAPE
+                                                      &tog 4              &lt 3 SPACE       &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &to 1
             >;
         };
 
         COLMAK-DH {
             bindings = <
-&lt 2 TAB         &kp Q           &kp W               &kp F               &kp P         &kp B                            &kp UP                         &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &lt 2 MINUS
-&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T  &kp G                  &kp LEFT  &lt 0 C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
-&kp LSHFT         &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                       &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &mt RSHFT ESCAPE
-                                                      &tog 4              &lt 3 SPACE   &lt 2 SPACE                                                     &lt 2 ENTER  &lt 3 BACKSPACE    &to 0
+&lt 2 TAB         &kp Q           &kp W               &kp F               &kp P         &kp B                            &kp UP                       &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &lt 2 MINUS
+&mt GRAVE ESCAPE  &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
+&kp LSHFT         &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                     &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &mt RSHFT ESCAPE
+                                                      &tog 4              &lt 3 SPACE   &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &to 0
             >;
 
             label = "COLMAK-DH";
@@ -101,10 +101,10 @@
         NUMBERS {
             display-name = "NUMBER";
             bindings = <
-&mt GRAVE ESCAPE    &kp N1        &kp N2                   &kp N3                   &kp N4                                       &kp N5                                                   &mmv MOVE_UP                     &kp N6               &kp N7           &kp N8         &kp N9     &kp N0    &kp BSPC
-&rgb_ug RGB_TOG     &bt BT_SEL 0  &bt BT_SEL 1             &bt BT_SEL 2             &bt BT_SEL 3                                 &bt BT_SEL 4                             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT             &kp DOWN         &kp UP         &kp RIGHT  &kp HOME  &kp PG_UP
-&console_bararamas  &kp LC(C)     &mt LA(SPACE) LG(SPACE)  &mt LA(SPACE) LG(SPACE)  &mt C_AC_DESKTOP_SHOW_ALL_WINDOWS LG(LC(F))  &mt LC(LG(K_EJECT)) LC(LG(Q))  &trans                    &mmv MOVE_DOWN                   &mt K_MUTE C_VOL_DN  &kp C_VOLUME_UP  &to 0          &to 1      &kp END   &kp PG_DN
-                                                           &kp LEFT_CONTROL         &mt LEFT_COMMAND SPACE                       &kp SPACE                                                                                 &kp ENTER            &kp DEL          &kp RIGHT_ALT
+&mt GRAVE ESCAPE    &kp N1        &kp N2                   &kp N3                   &kp N4                                       &kp N5                                               &kp C_VOLUME_UP                &kp N6               &kp N7           &kp N8         &kp N9     &kp N0    &kp BSPC
+&rgb_ug RGB_TOG     &bt BT_SEL 0  &bt BT_SEL 1             &bt BT_SEL 2             &bt BT_SEL 3                                 &bt BT_SEL 4                             &kp C_PREV  &kp C_PLAY_PAUSE   &kp C_NEXT  &kp LEFT             &kp DOWN         &kp UP         &kp RIGHT  &kp HOME  &kp PG_UP
+&console_bararamas  &kp LC(C)     &mt LA(SPACE) LG(SPACE)  &mt LA(SPACE) LG(SPACE)  &mt C_AC_DESKTOP_SHOW_ALL_WINDOWS LG(LC(F))  &mt LC(LG(K_EJECT)) LC(LG(Q))  &trans                &kp C_VOLUME_DOWN              &mt K_MUTE C_VOL_DN  &kp C_VOLUME_UP  &to 0          &to 1      &kp END   &kp PG_DN
+                                                           &kp LEFT_CONTROL         &mt LEFT_COMMAND SPACE                       &kp SPACE                                                                           &kp ENTER            &kp DEL          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -125,10 +125,10 @@
         Fun {
             display-name = "Fun";
             bindings = <
-&kp ESCAPE       &kp F1           &kp F2           &kp F3        &kp F4           &kp F5                               &mmv MOVE_UP                     &kp F6          &kp F7          &kp F8        &kp F9           &kp F10          &kp F11
-&trans           &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp RCLK            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp PRINTSCREEN  &kp F12
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans        &mkp LCLK        &mkp MB5   &trans                    &mmv MOVE_DOWN                   &to 2           &to 3           &to 0         &to 1            &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                                   &trans        &trans           &mkp RCLK                                                             &mkp LCLK       &trans          &trans
+&kp ESCAPE       &kp F1           &kp F2           &kp F3        &kp F4           &kp F5                         &kp UP                &kp F6          &kp F7          &kp F8        &kp F9           &kp F10          &kp F11
+&trans           &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp RCLK            &kp LEFT  &kp ENTER  &kp RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp PRINTSCREEN  &kp F12
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans        &mkp LCLK        &mkp MB5   &trans              &kp DOWN              &to 2           &to 3           &to 0         &to 1            &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                                   &trans        &trans           &mkp RCLK                                            &mkp LCLK       &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
