@@ -44,8 +44,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Fun, h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: COLMAK-DH, h: toggle}
@@ -93,8 +93,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Fun, h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: QWERTY, h: toggle}
@@ -133,7 +133,7 @@ layers:
   - {t: 'Gui+$$mdi:keyboard-space$$', h: 'Alt+$$mdi:keyboard-space$$'}
   - {t: Gui+Ctl+F, h: AC DESKTOP SHOW ALL WINDOWS}
   - {t: Ctl+Gui+Q, h: Ctl+Gui+EJECT}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:volume-low$$', h: MUTE}
   - $$mdi:volume-high$$
@@ -142,8 +142,8 @@ layers:
   - END
   - PG DN
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$', type: held alternate}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
@@ -191,8 +191,8 @@ layers:
   - {t: ']', s: '}'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {type: held}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -219,10 +219,10 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:progress-download$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - PRINTSCREEN
   - F12
   - RGB TOG
@@ -231,7 +231,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB5'
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: NUMBER, h: toggle}
   - {t: SYMBOL, h: toggle}
@@ -241,7 +241,7 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
