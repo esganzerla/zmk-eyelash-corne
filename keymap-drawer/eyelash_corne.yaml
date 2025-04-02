@@ -121,11 +121,11 @@ layers:
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
+  - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - HOME
   - PG UP
   - '&console_bararamas'
   - Ctl+C
@@ -141,7 +141,7 @@ layers:
   - {t: COLMAK-DH, h: toggle}
   - END
   - PG DN
-  - $$mdi:apple-keyboard-control$$
+  - {t: Fun, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
