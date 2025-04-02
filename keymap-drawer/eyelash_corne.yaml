@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: '-', h: NUMBER, s: _}
-  - {t: '$$mdi:keyboard-esc$$', h: '`'}
+  - {t: '-', s: _}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-command$$'}
@@ -29,7 +29,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Fun, h: toggle}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Fun, h: toggle}
   - {t: Fun, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: COLMAK-DH, h: toggle}
   COLMAK-DH:
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -62,8 +62,8 @@ layers:
   - U
   - Y
   - {t: ;, s: ':'}
-  - {t: '-', h: NUMBER, s: _}
-  - {t: '$$mdi:keyboard-esc$$', h: '`'}
+  - {t: '-', s: _}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -78,7 +78,7 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-control$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Fun, h: toggle}
   - X
   - C
   - D
@@ -91,7 +91,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Fun, h: toggle}
   - {t: Fun, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: QWERTY, h: toggle}
   NUMBER:
-  - {t: '$$mdi:keyboard-esc$$', h: '`', type: held}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -111,7 +111,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: held alternate}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - RGB TOG
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -130,7 +130,7 @@ layers:
   - '&console_bararamas'
   - Ctl+C
   - {t: 'Gui+$$mdi:keyboard-space$$', h: 'Alt+$$mdi:keyboard-space$$'}
-  - {t: 'Gui+$$mdi:keyboard-space$$', h: 'Alt+$$mdi:keyboard-space$$'}
+  - $$mdi:mouse-left-click-outline$$
   - {t: Gui+Ctl+F, h: AC DESKTOP SHOW ALL WINDOWS}
   - {t: Ctl+Gui+Q, h: Ctl+Gui+EJECT}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -143,7 +143,7 @@ layers:
   - PG DN
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
