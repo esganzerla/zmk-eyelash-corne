@@ -109,8 +109,8 @@
             bindings = <
 &kp ESCAPE  &kp Q           &kp W               &kp E               &kp R             &kp T                            &kp UP                       &kp Y        &kp U              &kp I                &kp O                &kp P                    &kp MINUS
 &kp TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL S  &ht LEFT_COMMAND D  &ht LEFT_SHIFT F  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp H        &ht RIGHT_SHIFT J  &ht RIGHT_COMMAND K  &ht RIGHT_CONTROL K  &ht RIGHT_ALT SEMICOLON  &kp SQT
-&fun_rgb    &kp Z           &kp X               &kp C               &kp V             &kp B        &trans              &kp DOWN                     &kp N        &kp M              &kp COMMA            &kp DOT              &kp FSLH                 &fun_rgb
-                                                &to 1               &lt 3 SPACE       &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &fun_rgb
+&trans      &kp Z           &kp X               &kp C               &kp V             &kp B        &trans              &kp DOWN                     &kp N        &kp M              &kp COMMA            &kp DOT              &kp FSLH                 &fun_rgb
+                                                &to 1               &lt 3 SPACE       &lt 2 SPACE                                                   &lt 2 ENTER  &kp BACKSPACE      &fun_rgb
             >;
         };
 
@@ -118,8 +118,8 @@
             bindings = <
 &kp ESCAPE  &kp Q           &lt 4 W             &lt 2 F             &lt 3 P       &kp B                            &kp UP                       &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &kp MINUS
 &kp TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
-&fun_rgb    &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                     &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &fun_rgb
-                                                &to 0               &lt 3 SPACE   &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &fun_rgb
+&trans      &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                     &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &fun_rgb
+                                                &to 0               &lt 3 SPACE   &lt 2 SPACE                                                   &lt 2 ENTER  &kp BACKSPACE      &fun_rgb
             >;
 
             label = "COLMAK-DH";
