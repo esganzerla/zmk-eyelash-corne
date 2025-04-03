@@ -198,24 +198,24 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Fun:
   - $$mdi:keyboard-esc$$
-  - F1
-  - {t: F2, type: held}
-  - F3
-  - F4
-  - F5
+  - Gui+.
+  - {t: Gui+R, type: held}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Sft+Gui+4
   - $$mdi:arrow-up-bold$$
   - AC DESKTOP SHOW ALL APPLICATIONS
   - Gui+Alt+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - Alt+Gui+$$mdi:arrow-right-bold$$
-  - F11
-  - RGB BRI
+  - Gui+$$mdi:keyboard-tab$$
+  - F8
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - PLAY PAUSE
+  - {t: Gui+Sft+5, s: Gui+Sft+%}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -224,13 +224,13 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: QWERTY, h: toggle}
+  - {t: NUMBER, h: toggle}
   - RGB TOG
   - RGB BRD
-  - $$mdi:apple-keyboard-control$$
+  - RGB BRI
+  - F12
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
-  - Gui+$$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -239,9 +239,9 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
   - {t: COLMAK-DH, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SYMBOL, h: toggle}
-  - '&rgb_num'
-  - $$mdi:mouse-left-click-outline$$
+  - {t: 'Gui+Alt+$$mdi:arrow-left-bold$$', h: 'Ctl+$$mdi:arrow-left-bold$$'}
+  - {t: 'Gui+Alt+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: COLMAK-DH, h: toggle}
