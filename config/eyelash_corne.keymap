@@ -153,7 +153,7 @@
             display-name = "Fun";
             bindings = <
 &kp ESCAPE       &kp LG(PERIOD)   &kp LG(R)        &kp LG(C)                  &kp LG(V)                          &kp LS(LG(NUMBER_4))                      &kp UP                &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp LG(LA(LEFT))  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LA(LG(RIGHT))  &kp LG(TAB)
-&kp F8           &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW               &kp RIGHT                          &kp LG(LS(N5))                  &kp LEFT  &kp ENTER  &kp RIGHT  &mkp RCLK                               &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT    &to 2
+&ht F12 F8       &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW               &kp RIGHT                          &kp LG(LS(N5))                  &kp LEFT  &kp ENTER  &kp RIGHT  &mkp RCLK                               &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT    &to 2
 &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp F12                    &kp LEFT_COMMAND                   &kp LEFT_CONTROL      &trans              &kp DOWN              &trans                                  &msc SCRL_LEFT    &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT    &to 1
                                                    &ht LC(LEFT) LG(LA(LEFT))  &ht LC(RIGHT_ARROW) LG(LA(RIGHT))  &kp ENTER                                                       &mkp LCLK                               &kp BACKSPACE     &to 1
             >;
