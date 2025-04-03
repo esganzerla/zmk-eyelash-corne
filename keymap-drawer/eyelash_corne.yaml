@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: Fun, h: toggle}
-  - {t: Fun, h: toggle}
+  - {t: COLMAK-DH, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: COLMAK-DH, h: toggle}
+  - '&fun_rgb'
   COLMAK-DH:
   - $$mdi:keyboard-esc$$
   - Q
@@ -92,12 +92,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: Fun, h: toggle}
-  - {t: Fun, h: toggle}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: QWERTY, h: toggle}
+  - '&fun_rgb'
   NUMBER:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -204,13 +204,13 @@ layers:
   - F4
   - F5
   - $$mdi:arrow-up-bold$$
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - Ctl+$$mdi:arrow-left-bold$$
+  - Gui+Alt+$$mdi:arrow-left-bold$$
+  - Alt+Gui+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
+  - Gui+$$mdi:keyboard-tab$$
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRI
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -227,21 +227,21 @@ layers:
   - {t: QWERTY, h: toggle}
   - RGB TOG
   - RGB BRD
-  - RGB BRI
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
-  - Gui+$$mdi:keyboard-space$$
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
   - {t: COLMAK-DH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - SYMBOL
-  - NUMBER
+  - {t: SYMBOL, h: toggle}
+  - {t: NUMBER, h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
