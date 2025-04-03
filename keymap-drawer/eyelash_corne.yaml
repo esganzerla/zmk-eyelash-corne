@@ -52,9 +52,9 @@ layers:
   COLMAK-DH:
   - $$mdi:keyboard-esc$$
   - Q
-  - W
-  - F
-  - P
+  - {t: W, h: Fun}
+  - {t: F, h: NUMBER}
+  - {t: P, h: SYMBOL}
   - B
   - $$mdi:arrow-up-bold$$
   - J
@@ -102,7 +102,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - {t: '3', s: '#', type: held alternate}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:volume-high$$
@@ -152,7 +152,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
+  - {t: $, type: held alternate}
   - '%'
   - $$mdi:volume-high$$
   - ^
@@ -199,7 +199,7 @@ layers:
   Fun:
   - $$mdi:keyboard-esc$$
   - F1
-  - F2
+  - {t: F2, type: held}
   - F3
   - F4
   - F5
