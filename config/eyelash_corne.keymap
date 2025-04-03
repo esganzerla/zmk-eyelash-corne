@@ -133,10 +133,10 @@
         Fun {
             display-name = "Fun";
             bindings = <
-&kp ESCAPE       &kp F1           &kp F2            &kp F3            &kp F4          &kp F5                         &kp UP                &kp LC(LEFT)                       &kp LG(LA(LEFT))  &kp LA(LG(RIGHT_ARROW))  &kp LC(RIGHT)  &kp LG(TAB)      &kp F11
-&rgb_ug RGB_BRI  &kp LEFT         &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT       &mkp RCLK            &kp LEFT  &kp ENTER  &kp RIGHT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &mmv MOVE_LEFT    &mmv MOVE_DOWN           &mmv MOVE_UP   &mmv MOVE_RIGHT  &to 0
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &mkp MB5   &trans              &kp DOWN              &mkp RCLK                          &msc SCRL_LEFT    &msc SCRL_DOWN           &msc SCRL_UP   &msc SCRL_RIGHT  &to 1
-                                                    &trans            &to 3           &tog 2                                               &mkp LCLK                          &kp ENTER         &trans
+&kp ESCAPE       &kp F1           &kp F2            &kp F3            &kp F4          &kp F5                                &kp UP                &kp LC(LEFT)                       &kp LG(LA(LEFT))  &kp LA(LG(RIGHT_ARROW))  &kp LC(RIGHT)  &kp LG(TAB)      &kp F11
+&rgb_ug RGB_BRI  &kp LEFT         &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT       &kp C_PLAY_PAUSE            &kp LEFT  &kp ENTER  &kp RIGHT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &mmv MOVE_LEFT    &mmv MOVE_DOWN           &mmv MOVE_UP   &mmv MOVE_RIGHT  &to 0
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LG(SPACE)     &trans              &kp DOWN              &mkp RCLK                          &msc SCRL_LEFT    &msc SCRL_DOWN           &msc SCRL_UP   &msc SCRL_RIGHT  &to 1
+                                                    &trans            &to 3           &tog 2                                                      &mkp LCLK                          &kp ENTER         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
