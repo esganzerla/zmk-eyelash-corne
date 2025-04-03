@@ -26,6 +26,11 @@
     trigger-period-ms = <16>;
 };
 
+&lt {
+    tapping-term-ms = <250>;
+    quick-tap-ms = <200>;
+};
+
 / {
     behaviors {
         td0: td0 {
@@ -97,7 +102,7 @@
 
         COLMAK-DH {
             bindings = <
-&kp ESCAPE  &kp Q           &kp W               &kp F               &kp P         &kp B                            &kp UP                       &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &kp MINUS
+&kp ESCAPE  &kp Q           &lt 4 W             &lt 2 F             &lt 3 P       &kp B                            &kp UP                       &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &kp MINUS
 &kp TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
 &tog 4      &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                     &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &tog 4
                                                 &to 0               &lt 3 SPACE   &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &fun_rgb
