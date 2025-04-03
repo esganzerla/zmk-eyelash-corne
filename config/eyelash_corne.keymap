@@ -68,9 +68,17 @@
             bindings =
                 <&none &kp>,
                 <&macro_press>,
-                <&kp C &kp O &kp N &kp S &kp O &kp L &kp E &kp DOT &kp L &kp O &kp G &kp LPAR &kp SQT &kp B &kp A &kp R &kp A &kp R &kp A &kp M &kp A &kp S &kp SQT &kp COMMA &kp SPACE &kp SQT &kp SQT &kp RPAR>;
+                <&kp C &kp O &kp N &kp S &kp O &kp L &kp E &kp DOT &kp L &kp O &kp G &kp LPAR &kp SQT &kp B &kp A &kp R &kp A &kp R &kp A &kp M &kp A &kp S &kp SQT &kp COMMA &kp SPACE &kp SQT &kp SQT &kp RPAR>,
+                <&macro_press>;
 
             label = "NEW_MACRO";
+        };
+
+        fun_rgb: fun_rgb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 4 &rgb_ug RGB_ON &rgb_ug RGB_COLOR_HSB(0,87,49)>;
+            label = "FUN_RGB";
         };
     };
 
@@ -83,7 +91,7 @@
 &kp ESCAPE  &kp Q           &kp W               &kp E               &kp R             &kp T                            &kp UP                       &kp Y        &kp U              &kp I                &kp O                &kp P                    &kp MINUS
 &kp TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL S  &ht LEFT_COMMAND D  &ht LEFT_SHIFT F  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp H        &ht RIGHT_SHIFT J  &ht RIGHT_COMMAND K  &ht RIGHT_CONTROL K  &ht RIGHT_ALT SEMICOLON  &kp SQT
 &tog 4      &kp Z           &kp X               &kp C               &kp V             &kp B        &trans              &kp DOWN                     &kp N        &kp M              &kp COMMA            &kp DOT              &kp FSLH                 &tog 4
-                                                &tog 4              &lt 3 SPACE       &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &to 1
+                                                &to 1               &lt 3 SPACE       &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &fun_rgb
             >;
         };
 
@@ -92,7 +100,7 @@
 &kp ESCAPE  &kp Q           &kp W               &kp F               &kp P         &kp B                            &kp UP                       &kp J        &kp L              &kp U                &kp Y                &kp SEMI         &kp MINUS
 &kp TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T  &kp G                  &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &kp M        &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &kp SQT
 &tog 4      &kp X           &kp C               &kp D               &kp V         &kp Z        &trans              &kp DOWN                     &kp K        &kp H              &kp COMMA            &kp DOT              &kp FSLH         &tog 4
-                                                &tog 4              &lt 3 SPACE   &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &to 0
+                                                &to 0               &lt 3 SPACE   &lt 2 SPACE                                                   &lt 2 ENTER  &lt 3 BACKSPACE    &fun_rgb
             >;
 
             label = "COLMAK-DH";
@@ -125,10 +133,10 @@
         Fun {
             display-name = "Fun";
             bindings = <
-&kp ESCAPE       &kp F1           &kp F2           &kp F3        &kp F4     &kp F5                         &kp UP                &kp F6                             &kp F7          &kp F8          &kp F9        &kp F10          &kp F11
-&trans           &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT  &mkp RCLK            &kp LEFT  &kp ENTER  &kp RIGHT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &to 0
-&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans        &mkp LCLK  &mkp MB5   &trans              &kp DOWN              &kp LG(SPACE)                      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &to 1
-                                                   &trans        &mo 3      &mo 2                                                &mkp LCLK                          &kp ENTER       &trans
+&kp ESCAPE       &kp F1           &kp F2            &kp F3            &kp F4          &kp F5                         &kp UP                &kp LC(LEFT)                       &kp LG(LA(LEFT))  &kp LA(LG(RIGHT_ARROW))  &kp LC(RIGHT)  &kp LG(TAB)      &kp F11
+&rgb_ug RGB_BRI  &kp LEFT         &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT       &mkp RCLK            &kp LEFT  &kp ENTER  &kp RIGHT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &mmv MOVE_LEFT    &mmv MOVE_DOWN           &mmv MOVE_UP   &mmv MOVE_RIGHT  &to 0
+&rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &mkp MB5   &trans              &kp DOWN              &mkp RCLK                          &msc SCRL_LEFT    &msc SCRL_DOWN           &msc SCRL_UP   &msc SCRL_RIGHT  &to 1
+                                                    &trans            &to 3           &tog 2                                               &mkp LCLK                          &kp ENTER         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
