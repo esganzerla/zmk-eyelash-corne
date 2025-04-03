@@ -29,7 +29,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', s: '"'}
-  - {t: Fun, h: toggle}
+  - '&fun_rgb'
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: Fun, h: toggle}
+  - '&fun_rgb'
   - {t: COLMAK-DH, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -78,7 +78,7 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-control$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '''', s: '"'}
-  - {t: Fun, h: toggle}
+  - '&fun_rgb'
   - X
   - C
   - D
@@ -91,7 +91,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: Fun, h: toggle}
+  - '&fun_rgb'
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -204,11 +204,11 @@ layers:
   - F4
   - F5
   - $$mdi:arrow-up-bold$$
-  - Ctl+$$mdi:arrow-left-bold$$
+  - AC DESKTOP SHOW ALL APPLICATIONS
   - Gui+Alt+$$mdi:arrow-left-bold$$
-  - Alt+Gui+$$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
-  - Gui+$$mdi:keyboard-tab$$
+  - Alt+Gui+$$mdi:arrow-right-bold$$
   - F11
   - RGB BRI
   - $$mdi:arrow-left-bold$$
@@ -219,7 +219,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - AC DESKTOP SHOW ALL WINDOWS
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -233,7 +233,7 @@ layers:
   - Gui+$$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
@@ -241,7 +241,7 @@ layers:
   - {t: COLMAK-DH, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: SYMBOL, h: toggle}
-  - {t: NUMBER, h: toggle}
+  - '&rgb_num'
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
