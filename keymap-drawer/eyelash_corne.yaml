@@ -117,7 +117,7 @@ layers:
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
@@ -127,12 +127,12 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - PG UP
-  - '&console_bararamas'
+  - {t: BT DISC, h: '0'}
   - Ctl+C
   - {t: 'Gui+$$mdi:keyboard-space$$', h: 'Alt+$$mdi:keyboard-space$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: Gui+Ctl+F, h: AC DESKTOP SHOW ALL WINDOWS}
-  - {t: Ctl+Gui+Q, h: Ctl+Gui+EJECT}
+  - {t: Ctl+Gui+Q, h: Ctl+Gui+Alt+EJECT}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - {t: '$$mdi:volume-low$$', h: MUTE}
