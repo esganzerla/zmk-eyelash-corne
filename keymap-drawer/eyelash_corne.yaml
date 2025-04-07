@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   Fun:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: Ctl+C}
   - {t: Gui+W, h: Gui+Q}
   - {t: Gui+R, h: S, type: held}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
