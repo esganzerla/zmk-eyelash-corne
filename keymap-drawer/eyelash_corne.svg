@@ -1417,6 +1417,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 <text x="0" y="-4" class="key held tap">Gui+R</text>
+<text x="0" y="24" class="key held hold">S</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1478,7 +1479,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">Gui+\</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 67%">Gui+Sft+J</tspan></text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 67%">Gui+Ctl+J</tspan></text>
 <text x="0" y="-24" class="key shifted">Gui+|</text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-14">

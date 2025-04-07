@@ -199,7 +199,7 @@ layers:
   Fun:
   - $$mdi:keyboard-esc$$
   - {t: Gui+W, h: Gui+Q}
-  - {t: Gui+R, type: held}
+  - {t: Gui+R, h: S, type: held}
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - Sft+Gui+4
@@ -210,7 +210,7 @@ layers:
   - Ctl+$$mdi:arrow-right-bold$$
   - Alt+Gui+$$mdi:arrow-right-bold$$
   - Gui+$$mdi:keyboard-tab$$
-  - {t: Gui+\, h: Gui+Sft+J, s: Gui+|}
+  - {t: Gui+\, h: Gui+Ctl+J, s: Gui+|}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
