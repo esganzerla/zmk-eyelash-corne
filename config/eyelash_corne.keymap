@@ -128,10 +128,10 @@
         NUMBERS {
             display-name = "NUMBER";
             bindings = <
-&kp ESCAPE       &kp N1        &kp N2                   &kp N3        &kp N4                                       &kp N5                                                   &kp C_VOLUME_UP                &kp N6               &kp N7           &kp N8          &kp N9        &kp N0           &kp BSPC
-&rgb_ug RGB_TOG  &bt BT_SEL 0  &bt BT_SEL 1             &bt BT_SEL 2  &bt BT_SEL 3                                 &trans                                       &kp C_PREV  &kp C_PLAY_PAUSE   &kp C_NEXT  &kp HOME             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP
-&bt BT_DISC 0    &kp LC(C)     &mt LA(SPACE) LG(SPACE)  &mkp LCLK     &mt C_AC_DESKTOP_SHOW_ALL_WINDOWS LG(LC(F))  &mt LC(LG(LA(C_EJECT))) LC(LG(Q))  &trans                &kp C_VOLUME_DOWN              &mt K_MUTE C_VOL_DN  &kp C_VOLUME_UP  &to 1           &to 0         &kp END          &kp PG_DN
-                                                        &tog 4        &mt LEFT_COMMAND SPACE                       &kp SPACE                                                                               &kp ENTER            &kp DEL          &kp RIGHT_ALT
+&kp ESCAPE       &kp N1      &kp N2                   &kp N3     &kp N4                                       &kp N5                                                   &kp C_VOLUME_UP                &kp N6               &kp N7           &kp N8          &kp N9        &kp N0           &kp BSPC
+&rgb_ug RGB_TOG  &bt BT_PRV  &bt BT_NXT               &none      &trans                                       &trans                                       &kp C_PREV  &kp C_PLAY_PAUSE   &kp C_NEXT  &kp HOME             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP
+&bt BT_DISC 0    &kp LC(C)   &mt LA(SPACE) LG(SPACE)  &mkp LCLK  &mt C_AC_DESKTOP_SHOW_ALL_WINDOWS LG(LC(F))  &mt LC(LG(LA(C_EJECT))) LC(LG(Q))  &trans                &kp C_VOLUME_DOWN              &mt K_MUTE C_VOL_DN  &kp C_VOLUME_UP  &to 1           &to 0         &kp END          &kp PG_DN
+                                                      &tog 4     &mt LEFT_COMMAND SPACE                       &kp SPACE                                                                               &kp ENTER            &kp DEL          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
