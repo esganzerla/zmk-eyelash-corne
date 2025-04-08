@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - '&fun_rgb'
   - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: AC DESKTOP SHOW ALL WINDOWS, h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -113,11 +113,11 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: RGB TOG, type: held alternate}
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
@@ -126,7 +126,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - PG UP
+  - END
   - {t: BT DISC, h: '0'}
   - Ctl+C
   - {t: 'Gui+$$mdi:keyboard-space$$', h: 'Alt+$$mdi:keyboard-space$$'}
@@ -139,8 +139,8 @@ layers:
   - $$mdi:volume-high$$
   - {t: QWERTY, h: toggle}
   - {t: COLMAK-DH, h: toggle}
-  - END
-  - PG DN
+  - PgDn
+  - PgUp
   - {t: Fun, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', type: held alternate}
