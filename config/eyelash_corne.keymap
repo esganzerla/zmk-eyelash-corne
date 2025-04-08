@@ -153,12 +153,21 @@
             display-name = "Fun";
             bindings = <
 &ht LC(C) ESCAPE             &ht LG(Q) LG(W)  &ht LG(S) LG(R)  &kp LG(C)                  &kp LG(V)                          &kp LS(LG(NUMBER_4))                      &kp UP                &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp LG(LA(LEFT))  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LA(LG(RIGHT))  &kp LG(TAB)
-&ht LG(LC(J)) RG(BACKSLASH)  &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW               &kp RIGHT                          &kp LG(LS(N5))                  &kp LEFT  &kp ENTER  &kp RIGHT  &mkp RCLK                          &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT    &trans
+&ht LG(LA(J)) RG(BACKSLASH)  &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW               &kp RIGHT                          &kp LG(LS(N5))                  &kp LEFT  &kp ENTER  &kp RIGHT  &mkp RCLK                          &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT    &trans
 &rgb_ug RGB_TOG              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp LEFT_COMMAND           &kp LS(LG(F))                      &kp LEFT_CONTROL      &trans              &kp DOWN              &trans                             &msc SCRL_LEFT    &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT    &to 0
                                                                &ht LC(LEFT) LG(LA(LEFT))  &ht LC(RIGHT_ARROW) LG(LA(RIGHT))  &kp ENTER                                                       &mkp LCLK                          &kp BACKSPACE     &to 0
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };
