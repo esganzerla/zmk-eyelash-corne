@@ -105,9 +105,9 @@
 
         COLMAK-DH {
             bindings = <
-&lt 3 ESCAPE  &lt 4 Q         &lt 4 W             &lt 3 F             &lt 2 P            &ht C_AC_DESKTOP_SHOW_ALL_WINDOWS B                      &kp UP                       &ht LG(LA(J)) J  &lt 2 L            &lt 3 U              &lt 4 Y              &lt 4 SEMICOLON  &ht LG(GRAVE) MINUS
-&lt 3 TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T       &lt 2 G                                        &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &lt 2 M          &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &lt 3 ENTER
-&tog 4        &kp X           &kp C               &kp D               &kp V              &ht CAPS Z                           &trans              &kp DOWN                     &ht K CAPS       &kp H              &kp COMMA            &kp DOT              &kp FSLH         &kp BACKSPACE
+&lt 3 ESCAPE  &lt 4 Q         &lt 4 W             &lt 3 F             &lt 2 P            &ht C_AC_DESKTOP_SHOW_ALL_WINDOWS B                      &kp UP                       &ht LG(LA(J)) J  &lt 2 L            &lt 3 U              &lt 4 Y              &lt 4 SEMICOLON  &ht MINUS APOS
+&lt 3 TAB     &ht LEFT_ALT A  &ht LEFT_CONTROL R  &ht LEFT_COMMAND S  &ht LSHIFT T       &lt 2 G                                        &kp LEFT  &kp C_PLAY_PAUSE  &kp RIGHT  &lt 2 M          &ht RIGHT_SHIFT N  &ht RIGHT_COMMAND E  &ht RIGHT_CONTROL I  &ht RIGHT_ALT O  &lt 3 BACKSPACE
+&tog 4        &kp X           &kp C               &kp D               &kp V              &ht CAPS Z                           &trans              &kp DOWN                     &ht CAPSLOCK K   &kp H              &kp COMMA            &kp DOT              &kp FSLH         &kp ENTER
                                                   &kp LA(LG(LEFT))    &kp LG(LA(RIGHT))  &lt 2 SPACE                                                                           &lt 2 ENTER      &kp LC(LEFT)       &kp LC(RIGHT)
             >;
 
@@ -129,7 +129,7 @@
             bindings = <
 &kp GRAVE        &kp N1        &kp N2                   &kp N3            &kp N4                                       &kp N5                                                   &kp C_VOLUME_UP                &kp N6               &kp N7           &kp N8          &kp N9        &kp N0           &kp SINGLE_QUOTE
 &rgb_ug RGB_TOG  &kp LEFT_ALT  &kp LEFT_CONTROL         &kp LEFT_COMMAND  &kp LEFT_SHIFT                               &trans                                       &kp C_PREV  &kp C_PLAY_PAUSE   &kp C_NEXT  &kp HOME             &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp END
-&trans           &kp LC(C)     &mt LA(SPACE) LG(SPACE)  &mkp LCLK         &mt C_AC_DESKTOP_SHOW_ALL_WINDOWS LG(LC(F))  &mt LC(LG(LA(K_EJECT))) LC(LG(Q))  &trans                &kp C_VOLUME_DOWN              &mt K_MUTE C_VOL_DN  &kp C_VOLUME_UP  &kp PAGE_DOWN   &kp PAGE_UP   &trans           &kp BACKSPACE
+&trans           &kp LC(C)     &mt LA(SPACE) LG(SPACE)  &mkp LCLK         &mt C_AC_DESKTOP_SHOW_ALL_WINDOWS LG(LC(F))  &mt LC(LG(LA(K_EJECT))) LC(LG(Q))  &trans                &kp C_VOLUME_DOWN              &mt K_MUTE C_VOL_DN  &kp C_VOLUME_UP  &kp PAGE_DOWN   &kp PAGE_UP   &trans           &trans
                                                         &tog 4            &mt LEFT_COMMAND SPACE                       &kp SPACE                                                                               &kp ENTER            &kp DEL          &kp RIGHT_ALT
             >;
 
@@ -152,8 +152,8 @@
             display-name = "Fun";
             bindings = <
 &ht LC(C) ESCAPE             &ht LG(Q) LG(W)  &ht LG(S) LG(R)  &kp LG(C)                  &kp LG(V)                          &kp LS(LG(NUMBER_4))                      &kp UP                &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp LG(LA(LEFT))  &kp LC(LEFT)    &kp LC(RIGHT)  &kp LA(LG(RIGHT))  &kp LG(TAB)
-&ht LG(LA(J)) RG(BACKSLASH)  &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW               &kp RIGHT                          &kp LG(LS(N5))                  &kp LEFT  &kp ENTER  &kp RIGHT  &mkp RCLK                          &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT    &kp ENTER
-&rgb_ug RGB_TOG              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp LEFT_COMMAND           &kp LS(LG(F))                      &kp LEFT_CONTROL      &trans              &kp DOWN              &to 0                              &msc SCRL_LEFT    &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT    &kp BACKSPACE
+&ht LG(LA(J)) RG(BACKSLASH)  &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW               &kp RIGHT                          &kp LG(LS(N5))                  &kp LEFT  &kp ENTER  &kp RIGHT  &mkp RCLK                          &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT    &kp BACKSPACE
+&rgb_ug RGB_TOG              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &kp LEFT_COMMAND           &kp LS(LG(F))                      &kp LEFT_CONTROL      &trans              &kp DOWN              &to 0                              &msc SCRL_LEFT    &msc SCRL_DOWN  &msc SCRL_UP   &msc SCRL_RIGHT    &kp ENTER
                                                                &ht LC(LEFT) LG(LA(LEFT))  &ht LC(RIGHT_ARROW) LG(LA(RIGHT))  &kp ENTER                                                       &mkp LCLK                          &kp BACKSPACE     &to 0
             >;
 
