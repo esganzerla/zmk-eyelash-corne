@@ -13,7 +13,7 @@ layers:
   - {t: U, h: SYMBOL}
   - {t: Y, h: Fun}
   - {t: ;, h: Fun, s: ':'}
-  - {t: '-', h: Gui+`, s: _}
+  - {t: ., h: '-'}
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: '$$mdi:apple-keyboard-control$$'}
@@ -28,7 +28,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-control$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: Fun, h: toggle}
   - X
   - C
@@ -37,12 +37,12 @@ layers:
   - {t: Z, h: '$$mdi:apple-keyboard-caps$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: K}
+  - {t: K, h: '$$mdi:apple-keyboard-caps$$'}
   - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Alt+Gui+$$mdi:arrow-left-bold$$
   - Gui+Alt+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
@@ -140,7 +140,7 @@ layers:
   - PgDn
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Fun, h: toggle}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', type: held alternate}
@@ -224,7 +224,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: RGB TOG, type: held alternate}
   - RGB BRD
   - RGB BRI
@@ -238,7 +238,7 @@ layers:
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: 'Gui+Alt+$$mdi:arrow-left-bold$$', h: 'Ctl+$$mdi:arrow-left-bold$$'}
   - {t: 'Gui+Alt+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
